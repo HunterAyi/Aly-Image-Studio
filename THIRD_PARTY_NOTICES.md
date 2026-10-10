@@ -57,4 +57,4 @@ Nuitka runtime: Copyright 2008–2026 Kay Hayen; AGPLv3 with Nuitka Runtime Libr
 | 站酷快乐体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/zcoolkuaile |
 | 站酷小薇体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/zcoolxiaowei |
 
-Corresponding sources for unchanged native dependencies: https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.26.1/Third-Party-Sources.zip . Four bundled font originals and OFL notices accompany the installed program in static/fonts and licenses/Fonts.
+Corresponding sources for unchanged native dependencies: https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.2/Third-Party-Sources.zip . Four bundled font originals and OFL notices accompany the installed program in static/fonts and licenses/Fonts.

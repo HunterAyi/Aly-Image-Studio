@@ -6,7 +6,9 @@
 
 ## 下载和安装
 
-从 [版本下载页](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest) 下载 Windows x64 安装包。网盘地址以同一版本发布说明公布的链接为准。
+**[① 下载完整压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.0-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.0.2-stable-Setup.exe)**
+
+当前为 v0.26.0（安装修订0.26.0.2）。完整包内有安装程序及中文 TXT 说明，下载后解压安装；两个入口任选其一即可。查看 [版本下载页](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest) 获取更新内容和校验文件。网盘链接后续以官方发布说明为准。
 
 1. 双击安装包，阅读免费使用许可后安装。
 2. 从桌面“Aly Image Studio”快捷方式启动，浏览器自动打开本机工作台。

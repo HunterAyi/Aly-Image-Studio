@@ -6,9 +6,9 @@
 
 ## 下载和安装
 
-**[① 下载完整压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.0-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.0.2-stable-Setup.exe)**
+**[① 下载完整压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.1-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.1.1-stable-Setup.exe)**
 
-当前为 v0.26.0（安装修订0.26.0.2）。完整包内有安装程序及中文 TXT 说明，下载后解压安装；两个入口任选其一即可。查看 [版本下载页](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest) 获取更新内容和校验文件。网盘链接后续以官方发布说明为准。
+当前为 v0.26.1（安装修订0.26.1.1）。完整包内有安装程序及中文 TXT 说明，下载后解压安装；两个入口任选其一即可。查看 [版本下载页](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest) 获取更新内容和校验文件。网盘链接后续以官方发布说明为准。
 
 1. 双击安装包，阅读免费使用许可后安装。
 2. 从桌面“Aly Image Studio”快捷方式启动，浏览器自动打开本机工作台。
@@ -38,7 +38,7 @@
 
 ## 系统提示与校验
 
-安装器没有 Windows 可信代码签名，可能显示“未知发布者”或 SmartScreen 提示。请从官方公布的下载地址获取，并核对发布附件中的 SHA256.txt；不要关闭安全防护或添加排除项。SmartScreen 的公网下载体验尚未验证。
+安装器没有 Windows 可信代码签名，可能显示“未知发布者”或 SmartScreen 提示。请从官方公布的下载地址获取，并核对发布附件中的 GitHub-Assets-SHA256.txt（ZIP 内为 SHA256.txt）；不要关闭安全防护或添加排除项。SmartScreen 的公网下载体验尚未验证。
 
 ## 许可与反馈
 

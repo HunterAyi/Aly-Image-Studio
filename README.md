@@ -6,9 +6,9 @@ Windows 安装后通过已有的 Edge / Chrome 使用，无需安装 Python、Of
 
 ## 下载和安装
 
-**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.1/AlyImageStudio-0.27.1-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.1/AlyImageStudio-0.27.1.1-stable-Setup.exe)**
+**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.2/AlyImageStudio-0.27.2-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.2/AlyImageStudio-0.27.2.1-stable-Setup.exe)**
 
-当前 **v0.27.1**，安装修订 **0.27.1.1**。ZIP 只有安装程序、使用说明.txt、隐私说明.txt，解压后双击安装程序。必要许可和依赖随程序安装，不需要额外下载。
+当前 **v0.27.2**，安装修订 **0.27.2.1**。ZIP 只有安装程序、使用说明.txt、隐私说明.txt，解压后双击安装程序。必要许可和依赖随程序安装，不需要额外下载。
 
 1. 阅读免费使用许可并安装，可选择合适的磁盘和文件夹。
 2. 双击桌面“Aly Image Studio”启动本机工作台。
@@ -43,3 +43,5 @@ Windows 安装后通过已有的 Edge / Chrome 使用，无需安装 Python、Of
 本仓库只发布介绍、说明和安装包，应用自有源码不公开。Release 的 update-stable.json 和签名是客户端更新必须文件，普通用户只下载 ZIP 或 Setup。
 
 [Issues 问题反馈](https://github.com/HunterAyi/Aly-Image-Studio/issues)：提供软件/Windows版本、复现步骤和错误提示；不要提交 KEY、数据库、私人聊天或个人作品。
+
+本次修复：软件更新支持 Windows 手动系统代理，桌面快捷方式修复不依赖 PATH。旧0.26.1/0.27.1如果无法检查更新，请先手动安装本补丁一次到原目录。

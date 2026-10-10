@@ -1,49 +1,45 @@
 # Aly Image Studio
 
-免费使用的本地 AI 图片与对话创作软件。作者：**ayi**。官方入口：[Aly](https://www.aly18.com)。
+免费使用的本地 AI 图片与对话创作软件。作者 **ayi** · [Aly 官方入口](https://www.aly18.com)。
 
-在 Windows 上安装后，通过已有的 Edge / Chrome 使用。本机保存配置、聊天和作品，无需安装 Python、Office 或 FFmpeg，也无需注册软件账号。使用在线模型需要自行配置服务商 KEY，模型或中转服务可能收费。
+Windows 安装后通过已有的 Edge / Chrome 使用，无需安装 Python、Office 或 FFmpeg。配置、聊天与作品保存在本机；使用在线模型需要自行配置服务商 KEY，模型服务可能收费。
 
 ## 下载和安装
 
-**[① 下载完整压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.1-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest/download/AlyImageStudio-0.26.1.1-stable-Setup.exe)**
+**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.1/AlyImageStudio-0.27.1-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.1/AlyImageStudio-0.27.1.1-stable-Setup.exe)**
 
-当前为 v0.26.1（安装修订0.26.1.1）。完整包内有安装程序及中文 TXT 说明，下载后解压安装；两个入口任选其一即可。查看 [版本下载页](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest) 获取更新内容和校验文件。网盘链接后续以官方发布说明为准。
+当前 **v0.27.1**，安装修订 **0.27.1.1**。ZIP 只有安装程序、使用说明.txt、隐私说明.txt，解压后双击安装程序。必要许可和依赖随程序安装，不需要额外下载。
 
-1. 双击安装包，阅读免费使用许可后安装。
-2. 从桌面“Aly Image Studio”快捷方式启动，浏览器自动打开本机工作台。
-3. 在 API 设置中添加你选定服务商的 KEY，拉取并选择模型。生图和聊天分别设置。
+1. 阅读免费使用许可并安装，可选择合适的磁盘和文件夹。
+2. 双击桌面“Aly Image Studio”启动本机工作台。
+3. 在 API 设置中添加服务商 KEY，拉取并选择模型；生图和聊天分别设置。
 
-目标系统：Windows 10 22H2 / Windows 11 x64。安装与本机启动可离线进行，使用在线模型需要联网。具体已验证范围见 [版本与验证说明](docs/版本与验证说明.md)。
+已有 v0.26.1 的用户可从软件的系统设置检查更新，下载校验后确认安装。程序在**原安装文件夹**更新完整软件和依赖，无需重新选择目录，KEY、设置、历史和作品保留。
 
-完整使用方法见 [安装与使用说明](docs/安装与使用说明.md)。
+目标系统：Windows 10 22H2 / Windows 11 x64。[最新版本页与 SHA256](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest) · [安装与使用说明](docs/安装与使用说明.md) · [验证范围](docs/版本与验证说明.md)。GitHub 国内连接因网络而异；网盘手动备用由作者另行安排，目前没有国内自动镜像。
 
-## 可以做什么
+## 本轮变化
 
-- 文生图、参考图编辑、每批 1–4 张独立任务，参数按模型和渠道能力提供。
-- 近期任务、历史 / 图库、图片查看、名称修改、另存为，以及本机原图片关联。
-- 多轮 AI 对话、适用模型的图片 / 文件输入、PDF / 文档处理和视频抽帧。
-- AI 创作助手，在用户授权和限额内执行已实现的本地工具及生成步骤。
-- 独立管理生图与聊天的多个平台、KEY 和模型，保留自定义设置及主题。
+- 选择主题：默认主题色块和三套主题预览，点击即时预览，确定保存，取消还原。
+- 每主题独立页面标题，含符号最多12字，五种本地字体、合理字号；标题留在顶栏。
+- 图片预览名称回到顶部，底部缩略图及参数排列调整；减少控件闪烁竖条。
+- 近期记录可隐藏及逐步撤回，参考图关联去重、缺失提示和缓存清理。
+- 安装文件夹新增红色垃圾桶图标的“卸载”入口，开始菜单也可卸载；默认保留个人资料。
 
-模型能力以实际服务商、协议和型号为准。普通视频抽帧不包含音频；软件尚未提供视频生成或无限画布。正式版提供新版提示、下载校验和确认后安装更新。
+## 图片与对话
 
-## 费用与资料
+文生图、参考图编辑、每批1–4个任务；近期任务、历史/图库、查看、重命名和另存为。多轮对话与适用模型的图片/文件输入、PDF处理、视频抽帧，以及用户授权和限额内的 AI 创作助手。生图与聊天的多个平台、KEY、模型独立管理。能力以实际服务商、协议和型号为准，普通视频抽帧不包含音频。
 
-软件免费使用，模型服务费用由用户与服务商自行确认。软件不会自动重试收费生成 / 聊天 POST；网络超时可能代表结果未知，请先核对任务和渠道记录。
+## 费用、资料与许可
 
-正式版资料默认保存到 `%LOCALAPPDATA%\AlyImageStudio`。KEY 使用当前 Windows 用户加密保存；换用户或换电脑时可能需要重新输入。覆盖安装和默认卸载均保留个人资料，外部关联原图及另存为副本也保留。请自行备份重要作品。
+软件免费，模型服务费用由用户与服务商确认。收费生成/聊天 POST 不自动重试；网络超时后请先核对任务与渠道记录。
 
-详见 [隐私说明](docs/隐私说明.md)。
+资料默认位于 %LOCALAPPDATA%\AlyImageStudio，KEY 按当前 Windows 用户加密，换用户/电脑可能需要重新输入。更新和默认卸载保留资料及外部原图，请自行备份重要作品。[隐私说明](docs/隐私说明.md)。
 
-## 系统提示与校验
+安装器没有 Windows 可信代码签名，系统可能显示未知发布者或 SmartScreen；请核对官方来源与版本页 SHA256 并保持防护开启。公网 SmartScreen 体验尚未验证。
 
-安装器没有 Windows 可信代码签名，可能显示“未知发布者”或 SmartScreen 提示。请从官方公布的下载地址获取，并核对发布附件中的 GitHub-Assets-SHA256.txt（ZIP 内为 SHA256.txt）；不要关闭安全防护或添加排除项。SmartScreen 的公网下载体验尚未验证。
+[免费使用许可](LICENSE)允许个人/商业场景免费使用及原包免费分享。第三方组件保留各自许可证与修改/替换权利：[第三方说明](THIRD_PARTY_NOTICES.md)，安装目录 licenses 内有原始许可和部分对应源码；其余[第三方组件对应源码](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.26.1/Third-Party-Sources.zip)继续适用于未变更的依赖。新增四字体原文件和 OFL 同时随软件安装。
 
-## 许可与反馈
+本仓库只发布介绍、说明和安装包，应用自有源码不公开。Release 的 update-stable.json 和签名是客户端更新必须文件，普通用户只下载 ZIP 或 Setup。
 
-软件自有部分适用 [免费使用许可](LICENSE)，允许个人及商业场景免费使用，也允许免费分享未经修改的完整官方安装包。第三方组件保留各自许可证、修改和替换权利，见 [第三方说明](THIRD_PARTY_NOTICES.md)及随包许可证 / 对应源码附件。
-
-本仓库用于发布介绍、说明和安装包；应用自有源码不公开。第三方对应源码附件仅包括相应组件源码。
-
-发现问题请通过 [Issues 问题反馈页](https://github.com/HunterAyi/Aly-Image-Studio/issues) 提交软件版本、Windows 版本、复现步骤和错误提示。截图先遮盖个人信息，不要提交 KEY、数据库、私人聊天或个人作品。
+[Issues 问题反馈](https://github.com/HunterAyi/Aly-Image-Studio/issues)：提供软件/Windows版本、复现步骤和错误提示；不要提交 KEY、数据库、私人聊天或个人作品。

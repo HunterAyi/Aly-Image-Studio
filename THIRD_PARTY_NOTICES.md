@@ -52,3 +52,9 @@ Nuitka runtime: Copyright 2008–2026 Kay Hayen; AGPLv3 with Nuitka Runtime Libr
 | Python | 3.13.16 | PSF-2.0 and bundled notices | https://www.python.org/ |
 | Tcl/Tk | 8.6 | Tcl/Tk notices | https://www.tcl-lang.org/ |
 | FFmpeg | ffmpeg version 8.1 Copyright (c) 2000-2026 the FFmpeg developers | LGPL-2.1-or-later; dav1d BSD-2-Clause; zlib Zlib; MinGW notices; GCC runtime exception | https://ffmpeg.org/releases/ffmpeg-8.1.tar.xz |
+| 马善政毛笔体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/mashanzheng |
+| 龙苍手写体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/longcang |
+| 站酷快乐体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/zcoolkuaile |
+| 站酷小薇体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/zcoolxiaowei |
+
+Corresponding sources for unchanged native dependencies: https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.26.1/Third-Party-Sources.zip . Four bundled font originals and OFL notices accompany the installed program in static/fonts and licenses/Fonts.

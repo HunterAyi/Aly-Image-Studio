@@ -2,11 +2,11 @@
 
 免费使用的本地 AI 图片与对话创作软件。作者 **ayi** · [Aly 官方入口](https://www.aly18.com)。
 
-**最新正式版：v0.27.4 · Windows 10 22H2 / Windows 11 x64**
+**最新正式版：v0.27.5 · Windows 10 22H2 / Windows 11 x64**
 
 ## 下载与安装
 
-**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.4/AlyImageStudio-0.27.4-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.4/AlyImageStudio-0.27.4.1-stable-Setup.exe)**
+**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.5/AlyImageStudio-0.27.5-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.5/AlyImageStudio-0.27.5.1-stable-Setup.exe)**
 
 ZIP 仅包含安装程序、使用说明.txt、隐私说明.txt。解压后双击安装程序，可选择合适的磁盘和文件夹。无需安装 Python、Office 或 FFmpeg，安装后通过已有的 Edge / Chrome 使用。
 
@@ -26,6 +26,10 @@ ZIP 仅包含安装程序、使用说明.txt、隐私说明.txt。解压后双�
 - **更新与卸载**：软件内检查新版、下载校验并确认安装；安装目录与开始菜单提供明确的“卸载”入口。
 
 具体模型能力以服务商、协议和型号为准。普通视频抽帧不包含音频。
+
+## v0.27.5 更新
+
+任务列表和图库直接读取轻量摘要，避免反复处理大图片结果；原始记录与恢复来源保留。后台刷新按活动/闲置/页面可见性调整，避免请求积压；切图释放旧预览，缩放平移按帧合并绘制。原图、参考图及导出质量保持。
 
 ## v0.27.4 更新
 

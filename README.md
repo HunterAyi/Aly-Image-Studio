@@ -2,11 +2,11 @@
 
 免费使用的本地 AI 图片创作软件。作者 **ayi** · [Aly 官方入口](https://www.aly18.com)。
 
-**最新正式版：v0.28.0 · Windows 10 22H2 / Windows 11 x64**
+**最新正式版：v0.28.2 · Windows 10 22H2 / Windows 11 x64**
 
 ## 下载与安装
 
-**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.28.0/AlyImageStudio-0.28.0-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.28.0/AlyImageStudio-0.28.0.1-stable-Setup.exe)**
+**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.28.2/AlyImageStudio-0.28.2-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.28.2/AlyImageStudio-0.28.2.1-stable-Setup.exe)**
 
 ZIP 仅包含安装程序、使用说明.txt、隐私说明.txt。解压后双击安装程序，可选择合适的磁盘和文件夹。无需安装 Python、Office 或 FFmpeg，安装后通过已有的 Edge / Chrome 使用。
 
@@ -26,6 +26,10 @@ ZIP 仅包含安装程序、使用说明.txt、隐私说明.txt。解压后双�
 - **更新与卸载**：软件内检查新版、下载校验并确认安装；安装目录与开始菜单提供明确的“卸载”入口。
 
 具体模型能力以服务商、协议和型号为准。普通视频抽帧不包含音频。
+
+## v0.28.2 更新
+
+优化大图结果保存，减少重复处理，保留原图和下载恢复来源。自由模式按当前模型能力识别提示词中的明确分辨率、比例并提前显示；冲突或不支持时提交前提示。增加仅保存在本机的响应分段计时。上游生成及网络传输速度仍取决于服务和网络，不宣称消除软件与上游的全部耗时差。
 
 ## v0.28.0 更新
 

@@ -1,31 +1,35 @@
 # Aly Image Studio
 
-免费使用的本地 AI 图片与对话创作软件。作者 **ayi** · [Aly 官方入口](https://www.aly18.com)。
+免费使用的本地 AI 图片创作软件。作者 **ayi** · [Aly 官方入口](https://www.aly18.com)。
 
-**最新正式版：v0.27.5 · Windows 10 22H2 / Windows 11 x64**
+**最新正式版：v0.28.0 · Windows 10 22H2 / Windows 11 x64**
 
 ## 下载与安装
 
-**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.5/AlyImageStudio-0.27.5-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.5/AlyImageStudio-0.27.5.1-stable-Setup.exe)**
+**[① 下载压缩包（推荐）](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.28.0/AlyImageStudio-0.28.0-Windows-x64.zip)** · **[② 直接下载安装程序](https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.28.0/AlyImageStudio-0.28.0.1-stable-Setup.exe)**
 
 ZIP 仅包含安装程序、使用说明.txt、隐私说明.txt。解压后双击安装程序，可选择合适的磁盘和文件夹。无需安装 Python、Office 或 FFmpeg，安装后通过已有的 Edge / Chrome 使用。
 
 1. 阅读免费使用许可，完成安装。
 2. 双击桌面“Aly Image Studio”，打开本机工作台。
-3. 在 API 设置中添加服务商 KEY，拉取并选择模型；生图和聊天分别设置。
+3. 在 API 设置中添加服务商 KEY，拉取并选择模型；图片连接独立管理；AI 对话和聊天连接设置暂未开放。
 
 [正式版本页与文件校验](https://github.com/HunterAyi/Aly-Image-Studio/releases/latest) · [安装与使用说明](docs/安装与使用说明.md) · [隐私说明](docs/隐私说明.md)
 
 ## 主要功能
 
 - **图片创作**：文生图、参考图编辑、每批 1–4 个独立任务；近期任务、历史/图库、原图查看、重命名和另存为。
-- **AI 对话**：多轮聊天，适用模型的图片与文件输入、PDF 处理、视频抽帧，以及用户授权和限额内的创作助手。
-- **独立配置**：生图与聊天的多个平台、KEY 和模型独立管理，内置 Aly 入口并支持其他平台。
-- **外观设置**：默认主题、蓝色之约、月光小憩、云端伙伴；即时主题预览、独立页面标题、五种本地字体及字号设置。
+- **AI 对话**：开发中，入口与聊天连接设置暂不可用，既有聊天资料保留。
+- **独立配置**：图片平台、KEY 和模型独立管理，内置 Aly 入口并支持其他平台；模型别名识别、协议编号和成功拉取后清理旧列表。
+- **外观设置**：默认白蓝/深空石墨与三款图片主题，系统设置内提供字体、字号、字重、框体、圆角和工作台调节器，支持收起、保存、撤销及恢复默认。
 - **资料管理**：近期记录隐藏与逐步撤回、参考关联去重和缺失提示、缓存清理；配置、聊天和作品保存在本机。
 - **更新与卸载**：软件内检查新版、下载校验并确认安装；安装目录与开始菜单提供明确的“卸载”入口。
 
 具体模型能力以服务商、协议和型号为准。普通视频抽帧不包含音频。
+
+## v0.28.0 更新
+
+参数当前值直显、悬停展开点选和比例网格；默认主题及字体框体升级，两个可收起调节器集中在系统设置。参考图拖动排序，新上传并选为参考的图片加入近期；生成缩略图显示提交时间。优化模型别名识别、协议编号、KEY 配置卡片及拉取后的模型清理。AI 对话与聊天连接暂未开放，旧资料保留。
 
 ## v0.27.5 更新
 

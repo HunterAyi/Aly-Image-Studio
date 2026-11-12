@@ -5,7 +5,7 @@ FFmpeg is a separate LGPL command-line process, with replaceable shared librarie
 FFmpeg and dav1d corresponding sources/build instructions accompany this package in licenses/FFmpeg. These components retain their licenses, including modification and replacement rights, irrespective of the application license.
 This software uses the FreeType project (https://www.freetype.org/), under the FreeType License. Pillow and PDFium notices include their embedded native components.
 Rust dependencies are documented in licenses/Native/native-source-record.json; included notices conservatively cover build dependencies as well as runtime dependencies. OpenSSL retains Apache-2.0.
-pystray 0.19.5 (Copyright 2016-2022 Moses Palmer) is an unmodified LGPL-3.0-or-later library dynamically imported from third-party/pystray/pystray. Its complete Python source and GPL/LGPL texts accompany the package. Users may modify or replace this component and debug those modifications; it is excluded from application resource protection and compilation.
+pystray 0.19.5 (Copyright 2016-2022 Moses Palmer) is an unmodified LGPL-3.0-or-later library dynamically imported from third-party/pystray/pystray in a separate tray helper process. Its complete Python source and GPL/LGPL texts accompany the package. Users may modify or replace this component and debug those modifications; it is excluded from application resource protection and compilation. The core server accepts only fixed tray actions over private inherited pipes.
 Microsoft runtime DLLs are unmodified Distributable Code under the Visual Studio Community 2022 license and official redistribution list. See licenses/Native/notices/Microsoft; these DLLs are not open-source application code.
 
 | Component | Version | License | Source |
@@ -56,5 +56,3 @@ Nuitka runtime: Copyright 2008–2026 Kay Hayen; AGPLv3 with Nuitka Runtime Libr
 | 龙苍手写体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/longcang |
 | 站酷快乐体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/zcoolkuaile |
 | 站酷小薇体 | bundled original | SIL Open Font License 1.1 | https://github.com/google/fonts/tree/main/ofl/zcoolxiaowei |
-
-Corresponding sources for unchanged native dependencies: https://github.com/HunterAyi/Aly-Image-Studio/releases/download/v0.27.2/Third-Party-Sources.zip . Four bundled font originals and OFL notices accompany the installed program in static/fonts and licenses/Fonts.
